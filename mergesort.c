@@ -81,7 +81,7 @@
 	/* A utility function to print array of size n */
 	void printArray(int arr[],int size) 
 	{  
-		for (int i=0; i<size; ++i) 
+		for (int i=3; i<size; ++i) 
 			// System.out.print(arr[i] + " ");
             printf("%d ",arr[i]); 
 		// System.out.println();
