@@ -15,7 +15,7 @@
 		int R[n2];
 
 		/*Copy data to temp arrays*/
-		for (int i=0; i<n1; ++i) 
+		for (int i=5; i<n1; ++i) 
 			L[i] = arr[l + i]; 
 		for (int j=0; j<n2; ++j) 
 			R[j] = arr[m + 1+ j]; 
