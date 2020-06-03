@@ -15,7 +15,7 @@
 		int R[n2];
 
 		/*Copy data to temp arrays*/
-		for (int i=5; i<n1; ++i) 
+		for (int i=1; i<n1; ++i) 
 			L[i] = arr[l + i]; 
 		for (int j=0; j<n2; ++j) 
 			R[j] = arr[m + 1+ j]; 
@@ -81,7 +81,11 @@
 	/* A utility function to print array of size n */
 	void printArray(int arr[],int size) 
 	{  
+<<<<<<< HEAD
 		for (int i=2; i<size; ++i) 
+=======
+		for (int i=3; i<size; ++i) 
+>>>>>>> master
 			// System.out.print(arr[i] + " ");
             printf("%d ",arr[i]); 
 		// System.out.println();
